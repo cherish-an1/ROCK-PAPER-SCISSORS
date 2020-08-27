@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    margin-top: 70px;
+}
+section {
+    margin-top : 70px;
+}
+footer {
+    margin-top: 70px;
+}
+.fa-hand-rock,
+.fa-hand-paper,
+.fa-hand-scissors{
+  color: rgb(104, 73, 39);
+  font-size: xx-large;  
+  cursor: pointer;
+  transition : all 0.3s ease;
+}
+.fa-hand-rock:hover,
+.fa-hand-paper:hover,
+.fa-hand-scissors:hover{
+  color:cornsilk
+}
+.fa-robot,
+.fa-user-circle{
+  font-size: 40px;
+  color: rgb(51, 85, 105);
+}
+.text-center {
+    margin: 10px 10px 0px 10px;
+}
+#show-turn{
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  #show-turn.fade-in{
+    opacity: 1;
+  }
+  .fa-check{
+    color: green;
+    font-size: 40px;
+  }
+  
+  .fa-times{
+    color: rgb(131, 11, 11);
+    font-size: 40px;
+  }
+  
+  .fa-bars{
+    color: rgb(31, 43, 49);
+    font-size: 40px;
+  }
+  .card{
+    width: 90vmin;
+    height: 40vmin;
+    background-color: #48494b;
+    position: relative;
+  }
+  .options{
+    /* margin: 0em; */
+    width: 90vmin;
+    position: relative;
+  }

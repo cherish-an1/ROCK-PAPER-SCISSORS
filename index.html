@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>ROCK-PAPER-SCISSORS</title>
+  </head>
+
+  <body class=" align-items-center justify-content-center h-100">
+
+    <!--score board-->
+    <header>
+        <div class="d-flex flex-column align-items-center justify-content-end font-monospace">
+            <div class="">
+                <h2 class="h1 text-dark text-uppercase">SCOREBOARD</h2>
+            </div>
+            <div class="d-flex flex-row">
+                <span class="mr-4">
+                    <i class="fas fa-user-circle"></i>
+                </span>
+                <span class="mx-1">
+                    <h3 class="text-uppercase" id="user-score">0</h3>
+                </span>
+                <span class="mx-1">
+                    <h3 class="text-uppercase">-</h3>
+                </span>
+                <span class="mx-1">
+                    <h3 class="text-uppercase" id="comp-score">0</h3>
+                </span>
+                <span class="ml-4">
+                    <i class="fas fa-robot"></i>
+                </span>      
+            </div>
+        </div>
+    </header>
+
+    <!--choose one-->
+    <section>
+        <div class="col">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <p class="h1 text-dark text-uppercase">choose!!!</p>
+                <div class="options d-flex flex-row justify-content-between">
+                    <span class="text-center">
+                        <p class="h4 text-danger text-uppercase"><strong>rock?</strong></p>
+                        <i class="my-2 fas fa-hand-rock clickable" id="rock"></i>
+                    </span>
+                    <span class=" text-center">
+                        <p class="h4 text-danger text-uppercase"><strong>paper?</strong></p>
+                        <i class="my-2 fas fa-hand-paper clickable" id="paper"></i>
+                    </span>
+                    <span class="text-center">
+                        <p class="h4 text-danger text-uppercase"><strong>scissors?</strong></p>
+                        <i class="my-2 fas fa-hand-scissors clickable" id="scissors"></i>
+                    </span>
+                </div>
+    </section>
+
+    <footer class="align-items-center justify-content-center d-flex">
+        <div class="my-4 card shadow rounded">
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <div id="show-turn" class="options d-flex flex-row justify-content-between align-items-center">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
