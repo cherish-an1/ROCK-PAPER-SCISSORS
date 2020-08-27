@@ -55,13 +55,11 @@ footer {
     font-size: 40px;
   }
   .card{
-    width: 90vmin;
-    height: 40vmin;
+    height: 50vmin;
     background-color: #48494b;
     position: relative;
   }
   .options{
-    /* margin: 0em; */
     width: 90vmin;
     position: relative;
   }
